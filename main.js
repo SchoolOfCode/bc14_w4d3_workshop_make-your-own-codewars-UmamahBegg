@@ -5,15 +5,7 @@ Write a function that takes in the number of chapters that have been read so far
 */
 
 export function chaptersLeft(chaptersRead) {
-    if (chaptersRead > 30) {
-        return 0;
-    } else if (chaptersRead < 0) {
-        return 30;
-    } else if (typeof chaptersRead !== 'number') {
-        return 30;
-    } else {
-        return 30 - chaptersRead;
-    }
+    // Your code here
 }
 
 
